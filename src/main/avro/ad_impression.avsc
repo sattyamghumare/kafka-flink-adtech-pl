@@ -1,0 +1,23 @@
+{
+  "type": "record",
+  "name": "AdImpression",
+  "namespace": "org.adtech.avro",
+  "fields": [
+    {"name": "event_id", "type": "string"},
+    {"name": "event_type", "type": "string"},
+    {"name": "timestamp", "type": "long"},
+    {"name": "user_id", "type": "string"},
+    {"name": "publisher_name", "type": "string"},
+    {"name": "advertiser_name", "type": "string"},
+    {"name": "campaign_id", "type": "string"},
+    {"name": "bid_price", "type": "double"},
+    {"name": "device_type", "type": "string"},
+    {"name": "ip_address", "type": "string"},
+    {"name": "country_code", "type": "string"},
+    {"name": "city", "type": "string"},
+    {"name": "session_id", "type": "string"},
+    {"name": "ad_position", "type": "string"},
+    {"name": "is_skippable", "type": "boolean"},
+    {"name": "time_watched_seconds", "type": "int"}
+  ]
+}
